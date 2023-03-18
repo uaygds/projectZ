@@ -1,0 +1,277 @@
+/* HEADER */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+
+}
+
+.wrapper {
+    max-width: 1111px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    height: 75px;
+    z-index: 100;
+
+}
+
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+.header__logo {
+    padding-top: 22.5px ;
+    margin-left: 117px;
+}
+
+.header__tabs__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    line-height: 50px;
+    position: absolute;
+    right: 0%;
+    margin-right: 170px;
+    
+}
+
+.header__tabs__list__item {
+    width: 114px;
+    height: 75px;
+}
+
+.header__tabs__item__link {
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+/* MAIN PAGE */
+
+main {
+
+}
+
+/* Left piece */
+
+.welcome {
+    height: 951px;
+    background: url(../img/bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 306px;
+    padding-left: 170px;
+    color: white;
+}
+
+.welcome::after {
+    content: "";
+	display: block;    
+	width: 100%;
+	height: 951px;   
+    position: absolute;
+	top: 0;      
+	left: 0;   
+	background: transparent;
+	background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.welcome__logo {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 73px;
+}
+
+.welcome__title {
+    max-width: 670px;
+    height: 168px;
+    position: relative;
+    z-index: 2;
+    font-family: "raleway";
+    font-weight: 500;
+    font-size: 48px;
+    margin-bottom:55px ;
+}
+
+.welcome__line  {
+    border: 1px solid;
+    width: 170px;
+    margin-bottom: 42px;
+    position: relative;
+    z-index: 2;
+}
+
+.welcome__discription {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    width: 270px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 42px;
+}
+
+.welcome__download {
+    display: flex;
+    position: relative;
+    border: 2px solid white;
+    z-index: 2;
+    width: 270px;
+    height: 58px;
+    background: transparent;
+    font-family: "open sans";
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Left piece */
+
+/* Container */
+
+.welcome__container {
+    position: absolute;
+    z-index: 2;
+    width: 470px;
+    height: 450px;
+    border-radius: 10px;
+    background: white;
+    right: 0%;
+    top: 0%;
+    margin-right: 170px;
+    margin-top: 283px;
+}
+
+.welcome__container__title {
+    z-index: 2;
+    color: black;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    height: 90px;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 53px;
+    margin-bottom: 45px;
+}
+
+.welcome__container__title-orange {
+    color: #EC7979;
+}
+
+.welcome__container__discription {
+    margin-left: 50px;
+    color: #BDBDBD;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.welcome__container__discription-item {
+    margin-bottom: 16px;
+}
+
+.welcome__container__discription-line {
+    border: 1px solid #BDBDBD;
+    margin-bottom: 33px;
+    width: 370px;
+}
+
+.welcome__container__footer {
+    position: relative;
+    width: 470px;
+    height: 60px;
+    background:#EC7979 ;
+    margin-left: -50px;
+    border-color:#EC7979 ;
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 87px;
+    justify-content: center;
+}
+
+/* Container */
+
+
+/* Header footer */
+
+.header__footer {
+    width: 100%;
+    height: 140px;
+    background: #F8EFEF;
+    position: relative;
+}
+
+.header__footer__text {
+
+}
+
+.header__footer__text-title {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    display: flex; 
+    align-items: center;
+    height: 60px;
+    margin-bottom: 18px;
+    color: #333333;
+    margin-left: 170px;
+}
+
+.header__footer__text-discription {
+    width: 470px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #86878B;
+    margin-left: 170px;
+    margin-bottom: 0px;
+}
+
+.header__footer__tabs__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    position: absolute;
+    align-items: center;
+    right: 0%;
+    top: 0%;
+    margin-right: 183px;
+    margin-top: 34px;
+}
+
+.header__footer__tabs__list__item {
+    margin-right: 56px;
+}
