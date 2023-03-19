@@ -120,7 +120,7 @@ main {
 }
 
 .welcome__discription {
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-weight: 400;
     font-size: 18px;
     width: 270px;
@@ -166,7 +166,7 @@ main {
 .welcome__container__title {
     z-index: 2;
     color: black;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-weight: 700;
     font-size: 24px;
     text-align: center;
@@ -185,7 +185,7 @@ main {
 .welcome__container__discription {
     margin-left: 50px;
     color: #BDBDBD;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-weight: 400;
     font-size: 14px;
 
@@ -226,15 +226,12 @@ main {
 /* Header footer */
 
 .header__footer {
-    width: 100%;
+    width: 100vw;
     height: 140px;
     background: #F8EFEF;
     position: relative;
 }
 
-.header__footer__text {
-
-}
 
 .header__footer__text-title {
     font-family: "Open Sans";
@@ -251,7 +248,7 @@ main {
 
 .header__footer__text-discription {
     width: 470px;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 18px;
     font-weight: 400;
     text-align: left;
@@ -266,12 +263,122 @@ main {
     list-style-type: none;
     position: absolute;
     align-items: center;
-    right: 0%;
-    top: 0%;
+    right: 0;
+    top: 0;
     margin-right: 183px;
     margin-top: 34px;
 }
 
 .header__footer__tabs__list__item {
     margin-right: 56px;
+}
+
+/* Header footer */
+
+/* TABS */
+
+.tabs__header {
+    margin-top: 99px;
+    margin-left: 170px;
+}
+
+.menu__buttons {
+    display: flex;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.menu__buttons-item1 {
+    display: flex;
+    border: 1px solid #C6CBCD;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    width: 203px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__buttons-item2 {
+    display: flex;
+    width: 184px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__buttons-item3 {
+    display: flex;
+    width: 184px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__buttons-item4 {
+    display: flex;
+    width: 600px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__container {
+    width: 1170px;
+    height: 501px;
+    border: 1px solid #C6CBCD;
+    border-top: none;
+}
+
+.menu__container__title {
+    display: flex;
+    width: 570px;
+    height: 124px;
+    margin-left: 100px;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 27px;
+}
+
+.menu__container__discription {
+    width: 570px;
+    height: 210px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-bottom: 27px;
+}
+
+.menu__container__button {
+    margin-left: 100px;
+    width: 270px;
+    height: 58px;
+    color: white;
+    background-color: #EC7979;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__container__button-link {
+    text-decoration: none;
+}
+
+.menu__container__img {
+    height: 500;
+    float: right;
+    transform: translateY(calc(-50% - 194px));
 }
