@@ -66,10 +66,6 @@ header {
 
 /* MAIN PAGE */
 
-main {
-
-}
-
 /* Left piece */
 
 .welcome {
@@ -232,7 +228,6 @@ main {
     position: relative;
 }
 
-
 .header__footer__text-title {
     font-family: "Open Sans";
     font-size: 24px;
@@ -257,19 +252,22 @@ main {
     margin-bottom: 0px;
 }
 
-.header__footer__tabs__list {
+.header__footer__tabs {
     display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    position: absolute;
     align-items: center;
+    position: absolute;
     right: 0;
     top: 0;
+}
+
+.header__footer__tabs__list {
+    display: flex;
+    list-style-type: none;
     margin-right: 183px;
     margin-top: 34px;
 }
 
-.header__footer__tabs__list__item {
+.header__footer__tabs__list__item:not(:nth-child(7)){
     margin-right: 56px;
 }
 
@@ -333,6 +331,7 @@ main {
     height: 501px;
     border: 1px solid #C6CBCD;
     border-top: none;
+    margin-bottom: 50px ;
 }
 
 .menu__container__title {
@@ -381,4 +380,36 @@ main {
     height: 500;
     float: right;
     transform: translateY(calc(-50% - 194px));
+    margin-bottom: 50px;
 }
+
+/* AWESOME */
+
+.awesome {
+
+}
+
+.awesome__title {
+    position: absolute;
+    width: 1170px;
+    height: 150px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.awesome__title-line { /* почему эта херня выше названия?????? */
+    text-align: center;
+    position: absolute;
+    width: 170px;
+    height: 0px;
+    border: 1px solid #EC7979;
+    display: flex;
+    justify-content: center;
+}
+
