@@ -11,11 +11,6 @@ html {
 body {
     margin: 0 0 0 0;
     padding: 0;
-
-}
-
-.wrapper {
-
 }
 
 header {
@@ -46,7 +41,6 @@ header {
     position: absolute;
     right: 0;
     margin-right: 170px;
-    
 }
 
 .header__tabs__list__item {
@@ -73,7 +67,6 @@ header {
     padding-top: 306px;
     padding-left: 170px;
     color: white;
-
 }
 
 .welcome__logo {
@@ -273,7 +266,6 @@ header {
     height: 40px;
     border: 1px #86878B solid;
     border-bottom: none;
-
 }
 
 .tabs__buttons__item_second{
@@ -651,9 +643,7 @@ header {
 }
 
 .rewiews__block_people {
-
     display: flex;
-
     align-items: center;
 }
 
@@ -671,8 +661,6 @@ header {
     font-family: "Raleway";
     font-size: 18px;
     font-weight: 400;
-
-
 }
 
 /* REWIEWS END */
@@ -743,6 +731,10 @@ header {
     display: flex;
     justify-content: center;
 }
+
+/* STYLISH END */
+
+/* LAST */
 
 .last__title {
     display: flex;
@@ -870,6 +862,10 @@ header {
     text-decoration: none;
     margin-bottom: 50px;
 }
+
+/* LAST */
+
+/* FOOTER */
 
 .footer {
     width: 100%;
